@@ -32,8 +32,8 @@ public class Main {
 
     for(Person p : people){
       System.out.println("\nName: " + p.getName());
-      System.out.println("Likes French fries: " + p.isLikeFrenchFries());
-      System.out.println("Likes sleeping: " + p.isLikeSleeping());
+      System.out.println("Likes French fries: " + p.likeFrenchFries());
+      System.out.println("Likes sleeping: " + p.likeSleeping());
       System.out.println("Is adventurous: " + p.isAdventurous());
     }
   }

@@ -22,7 +22,7 @@ public class Person {
     this.name = name;
   }
 
-  public boolean isLikeFrenchFries() {
+  public boolean likeFrenchFries() {
     return likeFrenchFries;
   }
 
@@ -30,7 +30,7 @@ public class Person {
     this.likeFrenchFries = likeFrenchFries;
   }
 
-  public boolean isLikeSleeping() {
+  public boolean likeSleeping() {
     return likeSleeping;
   }
 
