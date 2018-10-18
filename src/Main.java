@@ -36,5 +36,12 @@ public class Main {
       System.out.println("Likes sleeping: " + p.likeSleeping());
       System.out.println("Is adventurous: " + p.isAdventurous());
     }
+
+    System.out.println("\nAll the people who like French fries: ");
+    for(Person p : people){
+      if(p.likeFrenchFries() == true) {
+        System.out.println(p.getName());
+      }
+    }
   }
 }
